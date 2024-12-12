@@ -10,12 +10,13 @@ body{
     height: 100vh;
     font-size: 1rem;
     padding-top: 50px;
+    color: #26355d;
 }
 .login{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 1.3rem;
     width: 700px;
     height: 350px;
     border: 10px solid #0A7075;
@@ -23,25 +24,31 @@ body{
 
 }
 .logo{
-    position: fixed;
-    top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 300px;
-    height: 150px;
-    
-}
-input{
-    border: 2px solid #26355d;
-    width: 400px;
-    height: 50px;
-    padding-left: 10px;
-    border-radius: 30px;
+    height: 70px;
+    font-size: 2.5rem;
+
 }
 button{
-    background-color: #26355d;
-    color: white;
-    width: 125px;
-    height: 35px;
-    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #26355d;
+    padding-left: 20px;
+    color: #26355d;
+    gap: 30px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+#text{
+    font-size: 20px;
 }
 a{
     text-decoration: none;
