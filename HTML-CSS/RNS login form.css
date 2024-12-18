@@ -46,14 +46,7 @@ body,
     border-radius: 30px;
 
 }
-button{
-    background-color: #274D60;
-    padding: 0.6rem 3rem;
-    color: white;
-    border-radius: 30px;
-    font-size: 1.2rem;
-    cursor: pointer;
-}
+
 .Sign-up-password-forget-container{
     display: flex;
     flex-direction: row;
