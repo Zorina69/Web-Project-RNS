@@ -11,6 +11,7 @@ body{
     gap: 20px;
    
     grid-template-rows: 30vh 1fr 20vh;
+    overflow-x: hidden;
 }
 .background{
     width: 100vw;

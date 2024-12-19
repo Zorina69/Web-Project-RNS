@@ -12,6 +12,7 @@ body{
     display: grid;
     gap: 20px;
     grid-template-rows: 30vh 1fr 20vh;
+    overflow-x: hidden;
 }
 .background{
     width: 100vw;
@@ -166,7 +167,13 @@ main nav nav figure{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
+
+#img{
+    height: 130px;
+}
+
 #title{
     display: flex;
     padding-left: 20px;
