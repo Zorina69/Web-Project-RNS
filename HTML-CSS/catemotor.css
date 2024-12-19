@@ -36,6 +36,13 @@ header{
     gap: 10px;
 }
 
+#category{
+    background-color: #26355D;
+    padding-bottom: 20px;
+}
+#catetext{
+    color: white;
+}
 #logo{
     padding-top: 5vh;
     width: 70%;
@@ -183,8 +190,8 @@ footer{
     background-color: #26355D;
     color: white;
     width: 100vw;
-    height: 150px;
-    padding-top: 10px;
+    height: 200px;
+    padding-top: 40px;
     display: grid;
     grid-template-columns: 30% 40% 30%;
 }

@@ -73,6 +73,14 @@ button{
     border-radius: 30px;
     border: none;
 }
+
+#category{
+    background-color: #26355D;
+    padding-bottom: 20px;
+}
+#catetext{
+    color: white;
+}
 #home{
     background-color: white;
     color: #26355D;
@@ -183,8 +191,8 @@ footer{
     background-color: #26355D;
     color: white;
     width: 100vw;
-    height: 150px;
-    padding-top: 10px;
+    height: 200px;
+    padding-top: 40px;
     display: grid;
     grid-template-columns: 30% 40% 30%;
 }

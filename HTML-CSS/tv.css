@@ -148,9 +148,9 @@ main{
 footer{
     background-color: #26355D;
     color: white;
-    padding-top: 10px;
     width: 100vw;
-    height: 150px;
+    height: 200px;
+    padding-top: 40px;
     display: grid;
     grid-template-columns: 30% 40% 30%;
 }
