@@ -23,7 +23,7 @@ header .container{
   gap: 1rem;
   
 }
-form input{
+input{
   padding: 0.5rem 2rem;
   border-radius: 20px;
 }
@@ -34,8 +34,6 @@ button{
   border-radius: 10px;
 }
 body{
-    min-height: 100%;
-    font-family: "Inter", sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -46,42 +44,70 @@ body{
 h1{
     font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
+.sign-in-container{
+    background-color: #26355D;
+    border-radius: 10px;
+    padding:0 1.5rem;
+}
 
+#category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+    background-color: #26355D;
+    font-size: clamp(0.6rem, 1vw, 0.8rem)!important;
+    color: white;
+
+}
+#category div{
+    min-width: 50px;
+    animation: 3s ease-in 1 container_img_cetegory;
+}
+@keyframes container_img_cetegory {
+  0%{
+    transform: translateZ(-30px);
+    opacity: 0;
+  }
+  50%{
+    transform: translateZ(0);
+
+  }
+  
+}
+
+
+.picItem:hover{
+  width: 100%;
+  background-color: white;
+  transform: scale(1.1);
+
+  transition: 1s ease ;
+    border-radius: 5px;
+
+}
 a{
     text-decoration: none;
     color: white;
-} 
+}
 main{
     flex: 1;
-    padding: 20px 0;
+    margin-bottom: 1rem;
 }
-main .container{
-    border: 5px solid #26355D;
-    border-radius: 20px;
-    padding: 2rem;
-}
-button,input{
-    min-height: 50px;
-    border-radius: 10px;
-}
-/* main article */ 
-.element_left_side_of_sale_container, .element_right_side_of_sale_container {
-    display: flex;
-    flex-direction: column;
-    
-    
-    
-}   
-.each-lR-element{
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-}
-.submit_button {
+.col{
+  animation: 3s ease-in 1 card;
 
-    display: flex;
-    justify-content: end;
-    
+}
+@keyframes card {
+  0%{
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  50%{
+    transform: translateZ(0);
+
+  }
+  
 }
 footer{
     background-color: #26355D;   
@@ -99,22 +125,45 @@ footer{
     
     .topRight{
       margin-top: 1rem;
-     
+      display: flex;
       flex-direction: column;
-      
+      align-items: center;
       border-bottom: 2px solid gray;
       
     }
     input{
       padding: 0.5rem 2rem;
-     
+      border-radius: 20px;
     }
     button{
       background-color: #26355D;
       min-width: 150px;
       color: white;
       padding: 0.2rem 1rem;
-      
+      border-radius: 10px;
+    }
+    #category{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: center;
+        font-size: 0.8rem;
+        
+    }
+    .nav-item:not(.nav-item:last-child){
+        border-bottom: 2px solid gray;
+    }
+    #category div{
+        max-width: 75px;
+    }
+    .picItem{
+        width: 100%;
+        cursor: pointer;
+        
+    }
+    /* main */
+    .col{
+        width: 50%;
     }
     
     footer .container{
@@ -130,23 +179,11 @@ footer{
     } 
 }
 @media screen and (min-width:1021px) {
-    
-    .element_left_right_side_of_sale_container{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 5rem;
-    }
     footer .container{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-
-    input{
-        min-width: 400px;
-    }
-  
     .icon{
        max-width: 75px;
     } 
