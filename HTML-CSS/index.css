@@ -60,30 +60,20 @@ h1{
     color: white;
 
 }
-#category div{
-    min-width: 50px;
-    animation: 3s ease-in 1 container_img_cetegory;
-}
-@keyframes container_img_cetegory {
-  0%{
-    transform: translateZ(-30px);
-    opacity: 0;
-  }
-  50%{
-    transform: translateZ(0);
 
-  }
+#category div:hover{
+  background-color: white;
+  border-radius: 5px;
+  color: #26355D;
   
+
 }
+
+
 
 
 .picItem:hover{
   width: 100%;
-  background-color: white;
-  transform: scale(1.1);
-
-  transition: 1s ease ;
-    border-radius: 5px;
 
 }
 a{
