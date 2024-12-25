@@ -62,29 +62,20 @@ h1{
 }
 #category div{
     min-width: 50px;
-    animation: 3s ease-in 1 container_img_cetegory;
-}
-@keyframes container_img_cetegory {
-  0%{
-    transform: translateZ(-30px);
-    opacity: 0;
-  }
-  50%{
-    transform: translateZ(0);
-
-  }
-  
+    
 }
 
-
-.picItem:hover{
+.picItem{
   width: 100%;
-  background-color: white;
-  transform: scale(1.1);
+  border-radius: 5px;
 
-  transition: 1s ease ;
+}
+.nav-item{
     border-radius: 5px;
-
+}
+.nav-car{
+    background-color:white;
+    color: #26355D;
 }
 a{
     text-decoration: none;
@@ -94,6 +85,13 @@ main{
     flex: 1;
     padding-top: 3rem;
     
+}
+.card{
+    min-height: 350px;
+}
+.card img{
+
+    height: 150px;
 }
 
 footer{

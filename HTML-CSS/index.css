@@ -199,3 +199,20 @@ footer{
     }
     
 }
+
+.card-title{
+  text-align: center;
+}
+.card-text{
+  font-size:smaller;
+  font-weight: 400;
+  text-align: center;
+}
+.card-price{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+#cat{
+  font-weight: bold;
+}
